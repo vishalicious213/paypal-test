@@ -8,4 +8,4 @@
         - If someone finds your Live Client ID, they still can’t withdraw money, but they could attempt test payments in unauthorized ways
         - Verify payments on the backend before delivering products or services
     - Even though the Client ID is public, only your backend should confirm successful payments before delivering a product/service
-- A script is called which renders the PayPal buttons into a /<div> with an ID
+- A script is called which renders the PayPal buttons into a \<div> with an ID
