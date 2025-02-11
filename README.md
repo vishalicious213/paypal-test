@@ -1,5 +1,7 @@
 # PayPal Checkout JavaScript integration
 
+## PayPal Checkout
+
 - __PayPal Checkout__ can be added to the front-end. Your `PayPal Client ID` will be used to identify you as a vendor. This ID is public-facing, so its ok it its exposed on the frontend.
     - The PayPal Client ID is global to the website or project and represents the storefront's identity on PayPal
     - Each PayPal application (storefront) has its own Client ID, which you get from the PayPal Developer Dashboard
