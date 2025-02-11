@@ -1,3 +1,17 @@
+const testBtn = document.getElementById("test")
+
+testBtn.addEventListener("click", hello)
+
+async function hello() {
+    try {
+        const response = await fetch("/.netlify/functions/hello")
+        const data = await response.json()
+        console.log(data.message)
+    } catch (error) {
+        console.log("Error fetching data", error)
+    }
+}
+
 paypal.Buttons({
     createOrder: function(data, actions) {
         return actions.order.create({
